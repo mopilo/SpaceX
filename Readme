@@ -2,4 +2,10 @@ cd SpaceX
 
 npm install
 
-node index.js o
+node index.js o 
+or
+
+node index.js order
+
+#help on how to run program
+node index.js --help

@@ -4,14 +4,16 @@
   "description": "travel system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Mopah Shewuri",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "colors": "^1.3.3",
     "commander": "^2.19.0",
     "inquirer": "^6.2.1",
+    "mocha": "^5.2.0",
     "mongoose": "^5.4.6",
     "pad": "^2.2.2"
   }
